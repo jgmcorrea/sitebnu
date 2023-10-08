@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#vaga{
+    background-color: blue;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#curriculos{
+    background-color: orangered;
+}
+#classificados{
+    background-color: rgb(14, 48, 14);
+}
+#cadastrar{
+    background-color: orange;
+}
+#cadastrargratis{
+    background-color: rgb(54, 179, 54);
+}
+.banner1{
+    margin-top: 50px;    
+}
+.vagas .numero{
+    color: white;
+    font-weight: 900;
+}
+.vagas{
+    color: white;
+    margin-top: 2em;
+}
+.itens{
+    color: white;
+    margin-top: 0.2em;
+}
+.título{
+    background-color: blue;
+    color: white;
+}
+.footer{
+    margin-top: 100px;
+}
+
+.noticias{
+    display: inline-block;
+    background-color: rgb(0, 102, 255);
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.eventos{
+    display: inline-block;
+    background-color: rgb(255, 0, 255);
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.diversos{
+    display: inline-block;
+    background-color: rgb(0, 255, 128);
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.oktoberfest{
+    display: inline-block;
+    background-color: rgb(255, 174, 0);
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.principal{
+    margin-top: 50px;
+}
+.card-text{
+    height: 6em
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #000000;
+    text-decoration: none;
+}
+/* rodape */
+.rodape{
+    height: 200px;
+    padding: 15px 0;
+    background-color: #FFCDD2;
+    margin-top: 100px;
+}
+.containerFooter{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.rowFooter{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.containerFooter a{
+    text-decoration: none;
+    color:black
+}
+.containerFooter li{
+    list-style: none;
+}
+
+.center-align{
+    text-align: center!important;
+}
+.dev{
+    text-align: center;
+}
+.breadcrumb{
+    background-color: red;
+    height: 4em;
+    padding: 1em;
+}
+.data{
+    display: inline-block;
+    background-color: rgb(172, 171, 170);
+    padding: 2px 2px 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+    width: 60px;
+    margin: 20px;
+    color: black;
+}
+.titulo-curriculo{
+    margin-top: 50px;
+}

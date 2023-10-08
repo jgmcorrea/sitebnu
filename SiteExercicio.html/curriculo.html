@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="/sitebnu/SiteExercicio.html/style.css">
+    
+    <title>Blog</title>
+</head>
+<body>
+        <nav class="navbar bg-danger-subtle">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/sitebnu/SiteExercicio.html/index.html">
+                    <img src="../img/logo.png" alt="Bootstrap" width="200px">
+                </a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sitebnu/SiteExercicio.html/index.html">Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sitebnu/SiteExercicio.html/blog.html">Blog</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/sitebnu/SiteExercicio.html/curriculo.html">Currículo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/sitebnu/SiteExercicio.html/index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cadastro de Currículo</li>
+            </ol>
+        </nav>
+<!-- Início corpo -->
+<form action="#" method="get">
+    <div class="container titulo-curriculo">   
+    <h3 style="text-align: center;">Cadastro de Currículo</h3>
+    </div>
+    <br><br>
+    <div class="container dados-pessoais">
+        <div class="row">
+            <legend style="text-align: center;"><b>Dados Pessoais</b></legend><br><br><br>
+        <div class="main col-md-6 sm-6" style="text-align: center;">
+        <fieldset>
+            
+    
+            <label for="nome" required>Nome Completo</label>
+            <input type="text" name="nome" id="nome" placeholder="Obrigatório">
+            <br><br>
+            <label for="email" required>E-mail</label>
+            <input type="text" name="email" id="email" placeholder="Obrigatório">
+            <br><br>
+            <label for="nascimento" required>Data de Nascimento</label>
+            <input type="date" name="nascimento" id="nascimento">
+            <br><br>
+            <label for="celular" required>Celular</label>
+            <input type="tel" name="celular" id="celular">
+            <br><br>
+            <label for="nascionalidade" required>Nascionalidade</label>
+            <input type="text" name="nascionalidade" id="nascionalidade">
+            <br><br>
+            <label for="naturalidade" required>Naturalidade</label>
+            <input type="text" name="naturalidade" id="naturalidade">
+            <br><br>
+            <label for="identidade" required>Identidade</label>
+            <input type="number" name="identidade" id="identidade" placeholder="Somente números">
+            <br><br>
+            <label for="cpf" required>CPF</label>
+            <input type="number" name="cpf" id="cfp" placeholder="Somente números">
+            <br><br>
+            <label for="genero">Gênero:</label>
+                <br>
+                <input type="radio" name="genero" value="masculino" id="masculino"><label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" name="genero" value="feminino" id="feminino"><label for="feminino">Feminino</label>
+        </fieldset>
+        </div>
+        <div class="main col-md-6 sm-6" style="text-align: center;">
+        <fieldset>
+            <label for="objetivos" required>Objetivos</label><br>
+            <textarea name="texto" cols="50" rows="10" placeholder="Quais seus objetivos pessoais"></textarea>
+            <br><br>
+            <label for="habilidades" required>Habilidades e Competências</label><br>
+            <textarea name="texto" cols="50" rows="10" placeholder="Descreva suas habilidade e competências. Ex: Pacote Office, PHP, C#, Java, Phyton,..."></textarea>
+        </fieldset>
+        </div>
+        </div>
+
+    </div>
+    <br><br><br>
+    <div class="container dados-pessoais">
+        <div class="row">
+        <div class="main col-md-12 sm-12" style="text-align: center;">
+            <fieldset>
+                <legend><b>Endereço</b></legend>
+                <br><br>
+                <label for="rua" required>Rua</label>
+                <input type="text" name="rua" id="rua">
+        
+                <label for="num" required>Nº</label>
+                <input type="number" name="num" id="num">
+                
+                <br><br>
+        
+                <label for="complemento" required>Complemento</label>
+                <input type="text" name="complemento" id="complemento">
+        
+                <label for="bairro" required>Bairro</label>
+                <input type="number" name="bairro" id="bairro">
+        
+                <br><br>
+        
+                <label for="cidade" required>Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+        
+                <label for="estado" required>Estado</label>
+                <input type="number" name="estado" id="estado">
+        
+                <br><br>
+        
+                <label for="cep" required>CEP</label>
+                <input type="number" name="cep" id="cep" placeholder="Somente números">
+        
+            </fieldset>
+        </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container empresas">
+        
+            <fieldset>
+                <legend style="text-align: center;"><b>Experiência Profissional</b></legend>
+                <div class="row">
+                    <div class="main col sm-12 md-4" style="text-align: center;">
+                        <br>
+                        <label for="empresa1" required>Empresa 1</label><br>
+                        <input type="text" name="empresa1" id="empresa1">
+                        <br><br>
+                        <label for="cargo" required>Cargo</label><br>
+                        <input type="text" name="cargo" id="cargo">
+                        <br><br>
+                        <label for="inicio" required>Início</label><br>
+                        <input type="text" name="inicio" id="inicio" placeholder="Mês/Ano">
+                        <br><br>
+                        <label for="fim" required>Fim</label><br>
+                        <input type="text" name="fim" id="fim" placeholder="Mês/Ano">
+
+                        <br><br>
+
+                        <label for="relato" required>Atividades</label><br>
+                        <textarea name="texto" cols="50" rows="5" placeholder="Descreva suas atividades na empresa"></textarea>
+                    </div>
+                    <div class="main col sm-12 md-4" style="text-align: center;">
+                        <br>
+                        <label for="empresa2" required>Empresa 2</label><br>
+                        <input type="text" name="empresa2" id="empresa2">
+                        <br><br>
+                        <label for="cargo" required>Cargo</label><br>
+                        <input type="text" name="cargo" id="cargo">
+                        <br><br>
+                        <label for="inicio" required>Início</label><br>
+                        <input type="text" name="inicio" id="inicio" placeholder="Mês/Ano">
+                        <br><br>
+                        <label for="fim" required>Fim</label><br>
+                        <input type="text" name="fim" id="fim" placeholder="Mês/Ano">
+
+                        <br><br>
+
+                        <label for="relato" required>Atividades</label><br>
+                        <textarea name="texto" cols="50" rows="5" placeholder="Descreva suas atividades na empresa"></textarea>
+                    </div>
+                    <div class="main col sm-12 md-4" style="text-align: center;">
+                        <br>
+                        <label for="empresa3" required>Empresa 3</label><br>
+                        <input type="text" name="empresa3" id="empresa3">
+                        <br><br>
+                        <label for="cargo" required>Cargo</label><br>
+                        <input type="text" name="cargo" id="cargo">
+                        <br><br>
+                        <label for="inicio" required>Início</label><br>
+                        <input type="text" name="inicio" id="inicio" placeholder="Mês/Ano">
+                        <br><br>
+                        <label for="fim" required>Fim</label><br>
+                        <input type="text" name="fim" id="fim" placeholder="Mês/Ano">
+
+                        <br><br>
+
+                        <label for="relato" required>Atividades</label><br>
+                        <textarea name="texto" cols="50" rows="5" placeholder="Descreva suas atividades na empresa"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+    </div>
+    <br><br>
+    <div class="container container-formacao">
+        <fieldset>
+            <legend style="text-align: center;"><b>Formação Acadêmica - Graduação e Técnico</b></legend>
+            <div class="row">
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso1" required>Curso</label><br>
+                    <input type="text" name="curso1" id="curso1">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso2" required>Curso</label><br>
+                    <input type="text" name="curso2" id="curso2">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso3" required>Curso</label><br>
+                    <input type="text" name="curso3" id="curso3">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <br><br>
+    <div class="container container-formacao">
+        <fieldset>
+            <legend style="text-align: center;"><b>Cursos</b></legend>
+            <div class="row">
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso1" required>Curso</label><br>
+                    <input type="text" name="curso1" id="curso1">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso2" required>Curso</label><br>
+                    <input type="text" name="curso2" id="curso2">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    <br>
+                    <label for="curso3" required>Curso</label><br>
+                    <input type="text" name="curso3" id="curso3">
+                    <br><br>
+                    <label for="instituicao" required>Instituição</label><br>
+                    <input type="text" name="instituicao" id="instituicao">
+                    <br><br>
+                    <label for="conclusao" required>Conclusão</label><br>
+                    <input type="date" name="conclusao" id="conclusao">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <br><br>
+    <div class="container outros">
+        <fieldset>
+            <legend style="text-align: center;"><b>Idiomas</b></legend>
+            <div class="row">
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                    
+                        <label for="fluente" required><h5>Fluente</h5></label><br>
+                        <input type="checkbox" name="fluente[]" id="ingles" value="Ingles"> <label for="ingles">Inglês</label><br>
+                        <input type="checkbox" name="fluente[]" id="espanhol" value="Espanhol"> <label for="espanhol">Espanhol</label><br>
+                        <input type="checkbox" name="fluente[]" id="alemao" value="Alemao"> <label for="alemao">Alemão</label><br>
+                        <input type="checkbox" name="fluente[]" id="italiano" value="Italiano"> <label for="italiano">Italiano</label><br>
+                        <input type="checkbox" name="fluente[]" id="frances" value="Frances"> <label for="frances">Francês</label><br>
+                        <input type="checkbox" name="fluente[]" id="outro" value="Outro"> <label for="outro">Outro</label>
+                        <input type="text" name="outros" id="outros" placeholder="Qual(is) outro(s)?">
+                </div>
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                        
+                        <label for="intermediario" required><h5>Intermediário</h5></label><br>
+                        <input type="checkbox" name="intermediario[]" id="ingles" value="Ingles"> <label for="ingles">Inglês</label><br>
+                        <input type="checkbox" name="intermediario[]" id="espanhol" value="Espanhol"> <label for="espanhol">Espanhol</label><br>
+                        <input type="checkbox" name="intermediario[]" id="alemao" value="Alemao"> <label for="alemao">Alemão</label><br>
+                        <input type="checkbox" name="intermediario[]" id="italiano" value="Italiano"> <label for="italiano">Italiano</label><br>
+                        <input type="checkbox" name="intermediario[]" id="frances" value="Frances"> <label for="frances">Francês</label><br>
+                        <input type="checkbox" name="intermediario[]" id="outro" value="Outro"> <label for="outro">Outro</label>
+                        <input type="text" name="outros" id="outros" placeholder="Qual(is) outro(s)?">
+                </div>
+                        
+                <div class="main col sm-12 md-4" style="text-align: center;">
+                        <label for="basico" required><h5>Básico</h5></label><br>
+                        <input type="checkbox" name="basico[]" id="ingles" value="Ingles"> <label for="ingles">Inglês</label><br>
+                        <input type="checkbox" name="basico[]" id="espanhol" value="Espanhol"> <label for="espanhol">Espanhol</label><br>
+                        <input type="checkbox" name="basico[]" id="alemao" value="Alemao"> <label for="alemao">Alemão</label><br>
+                        <input type="checkbox" name="basico[]" id="italiano" value="Italiano"> <label for="italiano">Italiano</label><br>
+                        <input type="checkbox" name="basico[]" id="frances" value="Frances"> <label for="frances">Francês</label><br>
+                        <input type="checkbox" name="basico[]" id="outro" value="Outro"> <label for="outro">Outro</label>
+                        <input type="text" name="outros" id="outros" placeholder="Qual(is) outro(s)?">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <br>
+    <div class="container container-final">
+    <fieldset>
+        <legend style="text-align: center;"><b>Informações Complementares</b></legend>
+
+        <textarea name="texto" cols="180" rows="5" placeholder="Por que você deveria ser chamado para trabalhar conosco?"></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <div class="mb-3">
+        <label for="formFile" class="form-label"><h5>Anexe seu CV</h5></label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+
+    <br><br><br>
+
+    <input type="submit" value="ENVIAR">  
+    </div>
+<!-- Fim corpo -->
+<footer class="rodape">
+    <div class="containerFooter">
+        <div class="row rowFooter">
+            <div class="grid-col center-align">
+                <h3>Blumenau Online</h3>
+                <p>Um portal de Oportunidades</p>
+            </div>
+            <div class="grid-col center-align">
+                <h3>Anuncie Conosco</h3>
+                <a href="mailto:eu@tu.com">email@email.com</a>
+            </div>
+            <div class="grid-col center-align">
+                <h3>Veja Também</h3>
+                <ul>
+                    <li><a href="/sitebnu/SiteExercicio.html/index.html">Home</a></li>
+                    <li><a href="/sitebnu/SiteExercicio.html/blog.html">Blog</a></li>
+                    <li><a href="/sitebnu/SiteExercicio.html/curriculo.html">Currículo</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

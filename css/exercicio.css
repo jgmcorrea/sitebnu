@@ -1,0 +1,20 @@
+
+.navegacao{
+    border: 1px solid black;
+}
+.banner{
+    height: 70px;
+    border: 1px solid black;
+    }
+.itens{
+    border: 1px solid black;
+    color: green;
+}
+.dividido{
+    height: 25px;
+    border: 1px solid black;
+}
+.footer{
+    height: 70px;
+    border: 1px solid black;
+}
