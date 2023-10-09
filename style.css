@@ -88,7 +88,7 @@ a{
 }
 /* rodape */
 .rodape{
-    height: 200px;
+    height: 150px;
     padding: 15px 0;
     background-color: #FFCDD2;
     margin-top: 100px;
@@ -133,4 +133,21 @@ a{
 }
 .titulo-curriculo{
     margin-top: 50px;
+}
+.leia{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px 4px 0px;
+    color: #fff;
+    margin-bottom: 8px;
+    width: 45px;
+    margin: 20px;
+    color: rgb(255, 0, 0);
+}
+.rodape2{
+    padding: 1px;
+    background-color: #e24d5c;
+}
+footer .rodapeLinks ul li{
+    list-style: none;
 }
